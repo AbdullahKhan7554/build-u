@@ -575,7 +575,7 @@ address { font-style: normal; }
 }
 
 .about-para {
-  color: var(--white-70);
+  color: rgb(255 255 255);;
   margin-bottom: 1.25rem;
   line-height: 1.8;
   font-size: 0.95rem;
@@ -594,8 +594,8 @@ address { font-style: normal; }
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  border: 1px solid rgba(181,18,27,0.4);
-  color: var(--red);
+  border: 2px solid rgba(179, 9, 9, 0.4);
+  color: rgb(255 255 255);;
   border-radius: 50px;
 }
 
@@ -663,7 +663,7 @@ address { font-style: normal; }
 
 .why-desc {
   font-size: 0.85rem;
-  color: var(--white-70);
+  color: rgb(255, 255, 255);;
   line-height: 1.75;
 }
 
@@ -680,7 +680,7 @@ address { font-style: normal; }
 
 .program-card {
   background: var(--white-05);
-  border: 1px solid rgba(255,255,255,0.07);
+  border: 1px solid rgba(255, 255, 255, 0.247);
   border-radius: var(--radius-lg);
   padding: 2rem 1.75rem 1.75rem;
   transition: all var(--transition-med);
@@ -717,7 +717,7 @@ address { font-style: normal; }
 }
 
 .program-card:hover .program-num {
-  color: rgba(181,18,27,0.22);
+  color: rgba(231, 7, 18, 0.911);
 }
 
 .program-name {
@@ -730,7 +730,7 @@ address { font-style: normal; }
 
 .program-desc {
   font-size: 0.85rem;
-  color: var(--white-70);
+  color: rgb(255 255 255);;
   line-height: 1.75;
   margin-bottom: 1.5rem;
 }
