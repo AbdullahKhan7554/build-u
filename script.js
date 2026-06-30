@@ -298,3 +298,48 @@ function rafThrottle(fn) {
 })();
 
 
+const openBtn=document.getElementById("openCeoMessage");
+
+const modal=document.getElementById("ceoModal");
+
+const closeBtn=document.getElementById("closeCeoModal");
+
+openBtn.addEventListener("click",()=>{
+
+modal.classList.add("active");
+
+document.body.style.overflow="hidden";
+
+});
+
+closeBtn.addEventListener("click",()=>{
+
+modal.classList.remove("active");
+
+document.body.style.overflow="auto";
+
+});
+
+window.addEventListener("click",(e)=>{
+
+if(e.target===modal){
+
+modal.classList.remove("active");
+
+document.body.style.overflow="auto";
+
+}
+
+});
+
+document.addEventListener("keydown",(e)=>{
+
+if(e.key==="Escape"){
+
+modal.classList.remove("active");
+
+document.body.style.overflow="auto";
+
+}
+
+});
